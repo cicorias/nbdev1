@@ -3,6 +3,9 @@ name = "nbdev1"
 version = "0.1.0"
 description = ""
 authors = ["Shawn Cicoria <github@cicoria.com>"]
+packages = [
+  { include="pkg1" from="." }
+]
 
 [tool.poetry.dependencies]
 python = "^3.7"
